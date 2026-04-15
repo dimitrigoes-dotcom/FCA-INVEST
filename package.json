@@ -1,22 +1,18 @@
 {
-  "name": "app",
-  "version": "0.0.0",
-  "private": true,
+  "name": "mvp-matching-attio-sendgrid",
+  "version": "1.0.0",
+  "description": "Aplicação MVP para matching com Attio e SendGrid",
+  "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "dependencies": {
-    "clean-css": "^5.3.3",
-    "constantinople": "^4.0.1",
-    "cookie-parser": "^1.4.7",
-    "debug": "^4.4.1",
-    "express": "^4.21.2",
-    "http-errors": "^2.0.0",
-    "lorem-ipsum": "^2.0.8",
-    "md5": "^2.3.0",
-    "mersenne-twister": "^1.1.0",
-    "morgan": "^1.10.1",
-    "pug": "^3.0.3",
-    "uglify-js": "^3.19.3"
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.6.0",
+    "joi": "^17.9.2"
   }
-}
+}}
